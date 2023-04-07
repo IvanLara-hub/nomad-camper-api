@@ -13,6 +13,7 @@ const camperSchema = new mongoose.Schema({
   img: {
     type: String,
     default: "URL",
+    required: true,
   },
   slug: {
     type: String,

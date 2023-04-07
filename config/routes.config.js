@@ -3,6 +3,7 @@ const authController = require("../controllers/auth.controller");
 const usersController = require("../controllers/users.controller");
 const extrasController = require("../controllers/extras.controller");
 const testimonialsCrontroller = require("../controllers/testimonials.controller");
+const campersController = require("../controllers/campers.controller");
 
 const authMiddleware = require("../middlewares/auth.middleware");
 /* Auth */
@@ -37,7 +38,12 @@ router.post("/extras/:id", extrasController.update);
 
 router.post("/testimonials", testimonialsCrontroller.create);
 
+/*Campers*/
 
-
+router.post("/campers", campersController.create);
+router.get("/campers", campersController.list);
+router.get("/campers/:id", campersController.detail);
+router.post("/campers/:id/delete", campersController.delete);
+router.post("/campers/:id", extrasController.update);
 
 module.exports = router;

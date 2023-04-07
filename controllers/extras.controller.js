@@ -1,9 +1,9 @@
 const Extra = require("../models/Extra.model");
 
 module.exports.create = (req, res, next) => {
-  const { camperSize, name, description, img, price } = req.body;
+  const { camperSize, name, description, img, price, camper } = req.body;
 
-  Extra.create({ camperSize, name, description, img, price })
+  Extra.create({ camperSize, name, description, img, price, camper })
     .then((extra) => {
       res.json(extra);
     })

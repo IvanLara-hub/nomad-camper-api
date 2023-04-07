@@ -1,0 +1,129 @@
+[
+  {
+    "category": "MEDIUM",
+    "name": "Gama Natural",
+    "img": "URL",
+    "slug": "MEDIUM-gama-natural",
+    "equipment": [
+      "Aislamiento y panelado",
+      "Batería auxiliar 115ah",
+      "Suelo parquet vinílico",
+      "Iluminación led, tomas 12v y USB",
+      "Nevera compresor",
+      "Depósitos de aguas limpias y grises",
+      "Fregadero con grifo",
+      "Ducha exterior",
+      "Asientos delanteros giratorios",
+      "Asiento cama 2 o 3 plazas con o sin raíles",
+      "Mobiliario completo a la izquierda"
+    ],
+    "description": "Nuestra Gama Natural sigue la línea de grandes referentes como la VW California o la Mercedes Marco Polo. Situando todo el mobiliario a la izquierda y completando la configuración con un asiento cama (con o sin railes).    Una configuración muy estudiada y que sin duda alguna aporta sensación de amplitud.",
+    "compatibleVehicles": "VW T4/T5/T6 (Caravelle, Multivan, Transporter, Beach), Renault Trafic, Opel Vivaro, Ford Transit Custom, Nissan Primastar y NV300, Mercedes Viano, Vito, Clase V, Fiat Talento. Y cualquier otro modelo que sea similar en medidas.* La variación de personas para viajar, dormir y/o comer en la furgoneta siempre dependerá de la configuración final elegida por el cliente. Por ejemplo, si instalamos asiento cama de 2 ó 3 plazas.",
+    "price": 6000
+  },
+  {
+    "category": "MEDIUM",
+    "name": "Gama Beach",
+    "img": "URL",
+    "slug": "furgoneta-mediana-gama-beach",
+    "equipment": [
+      "Instalación eléctrica, iluminación led, tomas 12v y USB",
+      "Nevera compresor",
+      "Depósitos de aguas limpias y sucias",
+      "Ducha exterior",
+      "Fregadero con grifo",
+      "Mobiliario completo a la izquierda"
+    ],
+    "description": "Esta es la gama dedicada a las VW California Beach, que ya incluyen de serie techo elevable, asiento cama, batería auxiliar y algún que otro extra más. Debes tener en cuenta que para realizar la camperización el asiento cama que necesitas es el de 2 plazas, pues con el asiento triple no habrá espacio para el mobiliario. Si eres un@ fanátic@ de las Californias, pero quieres un equipamiento hecho a medida, con lo último del mercado y adaptado a tus necesidades, esta es la opción que más se adapta a ti.",
+    "compatibleVehicles": "VW T4/T5/T6 California Beach, con asiento cama trasero de 2 plazas",
+    "price": 5500
+  },
+
+  {
+    "category": "BIG_SIZE",
+    "name": "Gama L2",
+    "img": "URL",
+    "slug": "gran-volumen-gama-l2",
+    "equipment": [
+      "Aislamiento y panelado en fibra.",
+      "Batería auxiliar 125ah.",
+      "Suelo parquet vinílico.",
+      "Iluminación led, tomas 12v y USB.",
+      "Nevera compresor 85L.",
+      "Depósitos de aguas limpias y sucias.",
+      "Cabina de baño con ducha",
+      "Ducha exterior.",
+      "Asientos delanteros giratorios.",
+      "Mobiliario completo.",
+      "Asiento trasero dos plazas.",
+      "Cama matrimonio.",
+      "Fregadero con cocina de 2 fuegos.",
+      "Centralita PC 100.",
+      "Calefacción y agua caliente.",
+      "Ventanas.",
+      "Claraboyas."
+    ],
+    "description": "En la Gama L2, englobamos la medida de vehículos como Fiat Ducato, Citroen Jumper y Peugeot Boxer. Furgoneta camper Gran Volumen, con todo el equipamiento pero en tamaño compacto. Muy recomendado cuando por encima de todo primáis el fácil manejo de vuestro vehículo camper. Por su tamaño podemos alojar en su interior un baño con plato de ducha, cama amplia e incluso litera y salón compacto.",
+    "compatibleVehicles": "Fiat Ducato L2, Citroen Jumper L2, Peugeot Boxer L2, Mercedes Sprinter L2, VW Crafter L2 y otros modelos similares.",
+    "price": 8000
+  },
+
+  {
+    "category": "BIG_SIZE",
+    "name": "Gama L3",
+    "img": "URL",
+    "slug": "gran-volumen-gama-l3",
+    "equipment": [
+      "Aislamiento y panelado en fibra.",
+      "Batería auxiliar 125ah.",
+      "Suelo parquet vinílico.",
+      "Iluminación led, tomas 12v y USB.",
+      "Nevera compresor 85L.",
+      "Depósitos de aguas limpias y sucias.",
+      "Cabina de baño con ducha y wc fijo.",
+      "Ducha exterior.",
+      "Asientos delanteros giratorio.",
+      "Mobiliario completo.",
+      "Asiento trasero dos plazas.",
+      "Cama matrimonio.",
+      "Fregadero con cocina de 2 fuegos.",
+      "Centralita PC 100.",
+      "Calefacción y agua caliente.",
+      "Ventanas.",
+      "Claraboyas."
+    ],
+    "description": "En la Gama L3, englobamos la medida de vehículos como Fiat Ducato, Citroen Jumper y Peugeot Boxer. La furgoneta camper Gran Volumen por excelencia, el tamaño más camperizado y más polivalente. En su espacioso habitáculo puedes incluir baño completo con wc fijo, cama de matrimonio y litera y un salón con muy buenas medidas.",
+    "compatibleVehicles": "Fiat Ducato L3, Citroen Jumper L3, Peugeot Boxer L3, Mercedes Sprinter L3, VW Crafter L3 y otros modelos similares.",
+    "price": 9000
+  },
+  {
+    "category": "BIG_SIZE",
+    "name": "Gama L4",
+    "img": "URL",
+    "slug": "gran-volumen-gama-l4",
+    "equipment": [
+      "Aislamiento y panelado en fibra.",
+      "Batería auxiliar 125ah.",
+      "Suelo parquet vinílico.",
+      "Iluminación led, tomas 12v y USB.",
+      "Nevera compresor 85L.",
+      "Depósitos de aguas limpias y sucias.",
+      "Cabina de baño con ducha y wc fijo.",
+      "Ducha exterior.",
+      "Asientos delanteros giratorio.",
+      "Mobiliario completo.",
+      "Asiento trasero dos plazas.",
+      "Cama matrimonio.",
+      "Fregadero con cocina de 2 fuegos.",
+      "Centralita PC 100.",
+      "Calefacción y agua caliente.",
+      "Ventanas.",
+      "Claraboyas.",
+      "TV 19” HD",
+      "Portabicicletas"
+    ],
+    "description": "En la Gama L3, englobamos la medida de vehículos como Fiat Ducato, Citroen Jumper y Peugeot Boxer. La furgoneta camper Gran Volumen por excelencia, el tamaño más camperizado y más polivalente. En su espacioso habitáculo puedes incluir baño completo con wc fijo, cama de matrimonio y litera y un salón con muy buenas medidas.",
+    "compatibleVehicles": "Fiat Ducato L3, Citroen Jumper L3, Peugeot Boxer L3, Mercedes Sprinter L3, VW Crafter L3 y otros modelos similares.",
+    "price": 9500
+  }
+]
