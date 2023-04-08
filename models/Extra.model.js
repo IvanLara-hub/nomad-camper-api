@@ -23,11 +23,6 @@ const extraSchema = new mongoose.Schema({
     min: [0, "only positive prices"],
     required: true,
   },
-  camper: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Camper",
-    required: true,
-  },
 });
 
 const Extra = mongoose.model("Extra", extraSchema);

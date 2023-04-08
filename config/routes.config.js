@@ -4,8 +4,10 @@ const usersController = require("../controllers/users.controller");
 const extrasController = require("../controllers/extras.controller");
 const testimonialsCrontroller = require("../controllers/testimonials.controller");
 const campersController = require("../controllers/campers.controller");
+const budgetController = require("../controllers/budget.controller");
 
 const authMiddleware = require("../middlewares/auth.middleware");
+const Budget = require("../models/Budget.model");
 /* Auth */
 
 router.post("/login", authController.login);
@@ -42,8 +44,13 @@ router.post("/testimonials", testimonialsCrontroller.create);
 
 router.post("/campers", campersController.create);
 router.get("/campers", campersController.list);
-router.get("/campers/:id", campersController.detail);
+router.get("/campers/:slug", campersController.detail);
 router.post("/campers/:id/delete", campersController.delete);
 router.post("/campers/:id", extrasController.update);
+
+/*Budget*/
+
+router.post("/budget", budgetController.create);
+
 
 module.exports = router;
