@@ -11,7 +11,7 @@ mongoose.connection.once("open", () => {
   );
 
   mongoose.connection.db
-    .dropDatabase()
+    .dropCollection("campers")
     .then(() => {
       console.info("Db.config has been cleared");
     })

@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const extraSchema = new mongoose.Schema({
   camperSize: {
     type: String,
-    enum: ["MEDIUM", "BIG_SIZE", "CARAVAN"],
+    enum: ["FURGONETA MEDIANA", "GRAN VOLUMEN", "CARAVAN"],
     required: true,
   },
   name: {

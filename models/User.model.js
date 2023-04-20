@@ -34,6 +34,9 @@ const UserSchema = new mongoose.Schema(
       required: [true, REQUIRED_FIELD],
       minlength: [8, INVALID_LENGTH],
     },
+    img: {
+      type: String,
+    },
   },
   {
     timestamps: true,

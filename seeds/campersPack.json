@@ -1,9 +1,15 @@
 [
   {
-    "category": "MEDIUM",
+    "category": "FURGONETA MEDIANA",
     "name": "Gama Natural",
-    "img": "URL",
-    "slug": "medium-gama-natural",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681755892/Nomad-Camper/gama-natural_cswwaz.png",
+    "images": [
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681845196/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama-natural_jmgomk.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681846378/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_natural3-min_hlxffv.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681846596/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama-natural4-min_agcurp.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681846755/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama-natural5-min_mjj6lz.jpg"
+    ],
+    "slug": "furgoneta-mediana-gama-natural",
     "equipment": [
       "Aislamiento y panelado",
       "Batería auxiliar 115ah",
@@ -22,10 +28,16 @@
     "price": 6000
   },
   {
-    "category": "MEDIUM",
+    "category": "FURGONETA MEDIANA",
     "name": "Gama Beach",
-    "img": "URL",
-    "slug": "medium-gama-beach",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681845959/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama-beach_qiheo2.jpg",
+    "images": [
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681845934/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama-beach1-min_veiwmm.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681847167/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama-beach2-min_hj4yqt.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681847329/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama-beach4-min_qfi8va.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681847481/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama-beach5-min_ut3enn.jpg"
+    ],
+    "slug": "furgoneta-mediana-gama-beach",
     "equipment": [
       "Instalación eléctrica, iluminación led, tomas 12v y USB",
       "Nevera compresor",
@@ -38,12 +50,17 @@
     "compatibleVehicles": "VW T4/T5/T6 California Beach, con asiento cama trasero de 2 plazas",
     "price": 5500
   },
-
   {
-    "category": "BIG_SIZE",
+    "category": "GRAN VOLUMEN",
     "name": "Gama L2",
-    "img": "URL",
-    "slug": "big-size-gama-l2",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681771244/Nomad-Camper/F61_tlzfsp.jpg",
+    "images": [
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681908148/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l2_csyimx.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681908261/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l2-2_wg6lyp.png",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681908289/Nomad-Camper/optimizaci%C3%B3n%20furgos/Gama-l2-3_bokeea.png",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681908344/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l2-4_zh8cjb.jpg"
+    ],
+    "slug": "gran-volumen-gama-l2",
     "equipment": [
       "Aislamiento y panelado en fibra.",
       "Batería auxiliar 125ah.",
@@ -67,12 +84,17 @@
     "compatibleVehicles": "Fiat Ducato L2, Citroen Jumper L2, Peugeot Boxer L2, Mercedes Sprinter L2, VW Crafter L2 y otros modelos similares.",
     "price": 8000
   },
-
   {
-    "category": "BIG_SIZE",
-    "name": "Gama L3",
-    "img": "URL",
-    "slug": "big-size-gama-l3",
+    "category": "GRAN VOLUMEN",
+    "name": "Gama l3 Adventure",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681771826/Nomad-Camper/l3-1_gcxolv.jpg",
+    "images": [
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681908694/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l3_adventure_dw4nyk.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681908809/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l3_adventure_copia_kuaqd0.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681908865/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l3_adv_smekww.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681908943/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l3_adv_1_h9lqxq.jpg"
+    ],
+    "slug": "gran-volumen-gama-l3",
     "equipment": [
       "Aislamiento y panelado en fibra.",
       "Batería auxiliar 125ah.",
@@ -97,10 +119,17 @@
     "price": 9000
   },
   {
-    "category": "BIG_SIZE",
-    "name": "Gama L4",
-    "img": "URL",
-    "slug": "big-size-gama-l4",
+    "category": "GRAN VOLUMEN",
+    "name": "Gama l3",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681771968/Nomad-Camper/F58-web-3_x8zqen.jpg",
+    "images": [
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681909066/Nomad-Camper/optimizaci%C3%B3n%20furgos/l3_blanca_bc8hf0.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681909160/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l3_blanca_2_fgoh1y.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681909222/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l3_blanca-3_ejnktq.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681909277/Nomad-Camper/optimizaci%C3%B3n%20furgos/gama_l3_blanca-4_jewdfd.jpg"
+    ],
+
+    "slug": "gran-volumen-gama-l3",
     "equipment": [
       "Aislamiento y panelado en fibra.",
       "Batería auxiliar 125ah.",
@@ -128,9 +157,15 @@
   },
   {
     "category": "CARAVAN",
-    "name": "autocaravana",
-    "img": "URL",
-    "slug": "autocaravana-caravan",
+    "name": "Urriellu",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681772203/Nomad-Camper/Glamys-222-005-scaled_z94eny.jpg",
+    "images": [
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681909533/Nomad-Camper/gallery/caravana_hlbgtf.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681909591/Nomad-Camper/gallery/caravan_2_qtplqv.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681909644/Nomad-Camper/gallery/caravan_4_v9g3hz.jpg",
+      "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681909709/Nomad-Camper/gallery/caravan_5_f9p8lo.jpg"
+    ],
+    "slug": "autocaravana-urrieullu",
     "equipment": [
       "Aislamiento y panelado en fibra.",
       "Batería auxiliar 125ah.",

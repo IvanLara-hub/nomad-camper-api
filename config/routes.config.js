@@ -2,9 +2,11 @@ const router = require("express").Router();
 const authController = require("../controllers/auth.controller");
 const usersController = require("../controllers/users.controller");
 const extrasController = require("../controllers/extras.controller");
-const testimonialsCrontroller = require("../controllers/testimonials.controller");
+const testimonialsController = require("../controllers/testimonials.controller");
 const campersController = require("../controllers/campers.controller");
 const budgetController = require("../controllers/budget.controller");
+
+const upload = require("./storage.config"); ///
 
 const authMiddleware = require("../middlewares/auth.middleware");
 const Budget = require("../models/Budget.model");
@@ -38,7 +40,13 @@ router.post("/extras/:id", extrasController.update);
 
 /* Testimonials */
 
-router.post("/testimonials", testimonialsCrontroller.create);
+router.post(
+  "/testimonials",
+  authMiddleware.isAuthenticated,
+  testimonialsController.create
+);
+router.get("/testimonials/:id", testimonialsController.detail);
+router.get("/testimonials", testimonialsController.list);
 
 /*Campers*/
 
@@ -50,7 +58,6 @@ router.post("/campers/:id", extrasController.update);
 
 /*Budget*/
 
-router.post("/budget", budgetController.create);
-
+router.post("/budget", authMiddleware.isAuthenticated, budgetController.create);
 
 module.exports = router;

@@ -6,13 +6,11 @@ const budgetSchema = new mongoose.Schema({
     ref: "Camper",
     required: true,
   },
-
   extras: {
     type: [mongoose.Schema.Types.ObjectId],
     ref: "Extras",
     required: true,
   },
-
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",

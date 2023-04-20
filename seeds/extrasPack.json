@@ -1,0 +1,48 @@
+[
+  {
+    "camperSize": "GRAN VOLUMEN",
+    "name": "Cocina portátil",
+    "description": "Cocina portátil con 2 hornillos y tanque de gas.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681551239/Nomad-Camper/F64-web-14_mrmnar.jpg",
+    "price": 99.99
+  },
+
+  {
+    "camperSize": "GRAN VOLUMEN",
+    "name": "Cocina con 2 fuegos y horno",
+    "description": "Cocina integrada con 2 fuegos y horno.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681774912/Nomad-Camper/extra-horno-granvolumen_lgcqws.jpg",
+    
+    "price": 99.99
+  },
+
+  {
+    "camperSize": "CARAVAN",
+    "name": "Cocina 2 FUOCHI",
+    "description": "Cocina 2 FUOCHI.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681775084/Nomad-Camper/caravan-_extra_2_ua844z.jpg",
+    "price": 120
+  },
+  {
+    "camperSize": "CARAVAN",
+    "name": "Frigorífico SLIM 135 L",
+    "description": "Frigorífico SLIM 135 L.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681774566/Nomad-Camper/extra-frigori%CC%81fico-caravan_upmdkp.jpg",
+    "price": 120
+  },
+
+  {
+    "camperSize": "FURGONETA MEDIANA",
+    "name": "Cama viscolatex extensible",
+    "description": "4 plazas para viajar y 2 para dormir.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681775283/Nomad-Camper/furgoneta-mediana-cama-extra_qduneq.jpg",
+    "price": 99.99
+  },
+  {
+    "camperSize": "FURGONETA MEDIANA",
+    "name": "Techo Rígido con cama REIMO",
+    "description": "Techo Rígido con cama REIMO.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681775647/Nomad-Camper/furgoneta-mediana-techo_be6jlm.jpg",
+    "price": 99.99
+  }
+]

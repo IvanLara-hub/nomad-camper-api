@@ -4,7 +4,7 @@ const camperSchema = new mongoose.Schema(
   {
     category: {
       type: String,
-      enum: ["MEDIUM", "BIG_SIZE", "CARAVAN"],
+      enum: ["FURGONETA MEDIANA", "GRAN VOLUMEN", "CARAVAN"],
       required: true,
     },
     name: {
@@ -16,6 +16,11 @@ const camperSchema = new mongoose.Schema(
       default: "URL",
       required: true,
     },
+    images: {
+      type: [String],
+      required: true,
+    },
+
     slug: {
       type: String,
       default: "URL",
@@ -52,4 +57,5 @@ camperSchema.virtual("extras", {
 });
 
 const Camper = mongoose.model("Camper", camperSchema);
+
 module.exports = Camper;

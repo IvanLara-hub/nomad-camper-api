@@ -1,16 +1,31 @@
 const User = require('../models/User.model');
 const createError = require('http-errors');
+const bcrypt = require('bcrypt');
 const { StatusCodes } = require('http-status-codes');
 
-// { "email": "pablo@email.com", "password": "12345678" }
-module.exports.create = (req, res, next) => {
-  const { email, password, firstName, lastName } = req.body;
-  User.create({ email, password, firstName, lastName })
-    .then(userCreated => {
-      res.status(StatusCodes.CREATED).json(userCreated);
-    })
-    .catch(next)
-}
+module.exports.create = async (req, res, next) => {
+  const { email, password, firstName, lastName, confirmPassword } = req.body;
+
+  if (password !== confirmPassword) {
+    return next(createError(StatusCodes.BAD_REQUEST, 'Passwords do not match'));
+  }
+
+  try {
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(password, salt);
+
+    const userCreated = await User.create({
+      email,
+      password: hashedPassword,
+      firstName,
+      lastName
+    });
+
+    res.status(StatusCodes.CREATED).json(userCreated);
+  } catch (error) {
+    next(error);
+  }
+};
 
 module.exports.list = (req, res, next) => {
   User.find()

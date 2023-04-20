@@ -10,12 +10,14 @@ module.exports.create = (req, res, next) => {
     description,
     compatibleVehicles,
     price,
+    images,
   } = req.body;
 
   Camper.create({
     category,
     name,
     img,
+    images,
     slug,
     equipment,
     description,
@@ -29,7 +31,7 @@ module.exports.create = (req, res, next) => {
 };
 
 module.exports.list = (req, res, next) => {
-  Camper.find() 
+  Camper.find()
     .then((campers) => {
       res.json(campers);
     })
