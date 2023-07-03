@@ -1,12 +1,15 @@
-const User = require('../models/User.model');
-const createError = require('http-errors');
-const { StatusCodes } = require('http-status-codes');
-const jwt = require('jsonwebtoken');
+const User = require("../models/User.model");
+const createError = require("http-errors");
+const { StatusCodes } = require("http-status-codes");
+const jwt = require("jsonwebtoken");
 
 // { "email": "pablo@email.com", "password": "12345678" }
 module.exports.login = (req, res, next) => {
-  const loginError = createError(StatusCodes.UNAUTHORIZED, 'Email or password incorrect');
-  const { email, password } = req.body
+  const loginError = createError(
+    StatusCodes.UNAUTHORIZED,
+    "Email or password incorrect"
+  );
+  const { email, password } = req.body;
 
   if (!email || !password) {
     return next(loginError);
@@ -14,29 +17,29 @@ module.exports.login = (req, res, next) => {
 
   // Check email
   User.findOne({ email })
-    .then(user => {
+    .then((user) => {
       if (!user) {
-        return next(loginError)
+        return next(loginError);
       }
 
       // Check password
-      return user.checkPassword(password)
-        .then(match => {
-          if (!match) {
-            return next(loginError)
+      return user.checkPassword(password).then((match) => {
+        if (!match) {
+          console.log({ user });
+          return next(loginError);
+        }
+
+        // Emitir y firmar un token jwt con la info del usuario
+        const token = jwt.sign(
+          { id: user.id },
+          process.env.JWT_SECRET || "test",
+          {
+            expiresIn: "1h",
           }
+        );
 
-          // Emitir y firmar un token jwt con la info del usuario
-          const token = jwt.sign(
-            { id: user.id },
-            process.env.JWT_SECRET || 'test',
-            {
-              expiresIn: '1h'
-            }
-          )
-
-          res.json({ accessToken: token })
-        })
+        res.json({ accessToken: token });
+      });
     })
-    .catch(next)
-}
+    .catch(next);
+};

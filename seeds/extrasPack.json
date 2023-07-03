@@ -12,10 +12,26 @@
     "name": "Cocina con 2 fuegos y horno",
     "description": "Cocina integrada con 2 fuegos y horno.",
     "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681774912/Nomad-Camper/extra-horno-granvolumen_lgcqws.jpg",
-    
+
     "price": 99.99
   },
 
+  {
+    "camperSize": "GRAN VOLUMEN",
+    "name": "Baño confort",
+    "description": "Consta de un inodoro y un lavabo, y está diseñado para ser compacto y fácil de usar en espacios reducidos. El baño es duradero y resistente a las condiciones adversas del camping y las actividades al aire libre. Es una excelente adición para aquellos que buscan la comodidad y la practicidad en sus viajes en furgoneta.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1682286460/Nomad-Camper/optimizaci%C3%B3n%20furgos/silla_giatoria_l3_pz11bo.jpg",
+    "price": 199.99
+  },
+
+  {
+    "camperSize": "GRAN VOLUMEN",
+    "name": "Sillas giratorias",
+    "description": "Sillas giratorias para furgonetas camper de gran volumen, diseñadas para proporcionar comodidad y facilidad de movimiento en el espacio reducido de la furgoneta.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1682286200/Nomad-Camper/optimizaci%C3%B3n%20furgos/gran_volumen-ban%CC%83o_nlrr7y.jpg",
+
+    "price": 229.99
+  },
   {
     "camperSize": "CARAVAN",
     "name": "Cocina 2 FUOCHI",
@@ -32,6 +48,21 @@
   },
 
   {
+    "camperSize": "CARAVAN",
+    "name": "Cama 1.50m",
+    "description": "La cama está diseñada para ser fácil de montar y desmontar, y cuenta con características adicionales como espacio de almacenamiento integrado y opciones de ajuste personalizado para satisfacer las necesidades individuales de cada usuario.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1682286800/Nomad-Camper/optimizaci%C3%B3n%20furgos/extra_caravan_cama_jx3xtc.jpg",
+    "price": 420
+  },
+  {
+    "camperSize": "CARAVAN",
+    "name": "Cama Doble Abatible con Armario",
+    "description": "Solución inteligente para ahorrar espacio en habitaciones pequeñas: dos camas abatibles que se pliegan y se guardan en un armario.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1682287070/Nomad-Camper/optimizaci%C3%B3n%20furgos/camas_flex_w52dzd.jpg",
+    "price": 1120
+  },
+
+  {
     "camperSize": "FURGONETA MEDIANA",
     "name": "Cama viscolatex extensible",
     "description": "4 plazas para viajar y 2 para dormir.",
@@ -44,5 +75,20 @@
     "description": "Techo Rígido con cama REIMO.",
     "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1681775647/Nomad-Camper/furgoneta-mediana-techo_be6jlm.jpg",
     "price": 99.99
+  },
+
+  {
+    "camperSize": "FURGONETA MEDIANA",
+    "name": "Ducha portátil",
+    "description": "La ducha es portátil y se puede utilizar tanto en interiores como en exteriores.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1682287370/Nomad-Camper/optimizaci%C3%B3n%20furgos/ducha_firgo_mediana_cjxjwt.jpg",
+    "price": 199.99
+  },
+  {
+    "camperSize": "FURGONETA MEDIANA",
+    "name": "Puerta luz",
+    "description": "Puerta de metacrilato en la cara interna desplegable sin la necesidad de la carrozada.",
+    "img": "https://res.cloudinary.com/dbwcyzpiu/image/upload/v1682287701/Nomad-Camper/optimizaci%C3%B3n%20furgos/puerta_luz_flwtyf.jpg",
+    "price": 599.99
   }
 ]
